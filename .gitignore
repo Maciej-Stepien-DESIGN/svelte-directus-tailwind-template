@@ -1,0 +1,3 @@
+/frontend/.svelte-kit
+/frontend/node_modules
+directus/data/data.db

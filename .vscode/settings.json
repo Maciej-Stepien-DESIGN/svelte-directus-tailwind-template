@@ -1,0 +1,38 @@
+{
+	// Set Prettier as the default formatter globally
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	// Enable format on save for all file types
+	"editor.formatOnSave": true,
+
+	// Specific settings for Svelte files
+	"[svelte]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+
+	// Optional: specific settings for HTML, CSS, and JS
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// TailwindCSS intellisense support
+	"tailwindCSS.includeLanguages": {
+		"svelte": "html"
+	},
+
+	// Optional: Prettier config overrides
+	"prettier.singleQuote": true,
+	"prettier.semi": true,
+	"prettier.trailingComma": "es5",
+	"prettier.endOfLine": "lf"
+}
